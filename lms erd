@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-01T00:50:46.750Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ktznk-1ab7IiTeZqKV5a" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-01T03:06:02.006Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="ip07ugm4Q1lmSIJnUaBp" version="24.3.1" type="github">
   <diagram name="페이지-1" id="vcijaVTRWd4Iovr-8mUV">
     <mxGraphModel dx="2048" dy="626" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -184,7 +184,7 @@
         <mxCell id="vg_KpXP5praCrEzOzPxQ-38" value="회원가입 프로세스" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
           <mxGeometry x="-120" y="840" width="700" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="vg_KpXP5praCrEzOzPxQ-88" value="main.jsp" style="swimlane;startSize=20;html=1;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
+        <mxCell id="vg_KpXP5praCrEzOzPxQ-88" value="main.jsp" style="swimlane;startSize=20;html=1;swimlaneFillColor=default;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
           <mxGeometry y="20" width="140" height="520" as="geometry">
             <mxRectangle y="20" width="40" height="520" as="alternateBounds" />
           </mxGeometry>
@@ -198,7 +198,7 @@
         <mxCell id="vg_KpXP5praCrEzOzPxQ-91" value="&quot;회원가입&quot; 클릭시 링크" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-90">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="vg_KpXP5praCrEzOzPxQ-39" value="joinForm.jsp" style="swimlane;startSize=20;html=1;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
+        <mxCell id="vg_KpXP5praCrEzOzPxQ-39" value="joinForm.jsp" style="swimlane;startSize=20;html=1;swimlaneFillColor=#dae8fc;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
           <mxGeometry x="140" y="20" width="140" height="520" as="geometry">
             <mxRectangle y="20" width="40" height="520" as="alternateBounds" />
           </mxGeometry>
@@ -217,7 +217,7 @@
             <mxPoint x="70" y="140" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vg_KpXP5praCrEzOzPxQ-41" value="joinAction.jsp" style="swimlane;startSize=20;html=1;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
+        <mxCell id="vg_KpXP5praCrEzOzPxQ-41" value="joinAction.jsp" style="swimlane;startSize=20;html=1;swimlaneFillColor=#d5e8d4;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
           <mxGeometry x="280" y="20" width="140" height="520" as="geometry">
             <mxRectangle x="280" y="20" width="40" height="520" as="alternateBounds" />
           </mxGeometry>
@@ -247,7 +247,7 @@
             <mxGeometry x="110" y="170" width="30" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="vg_KpXP5praCrEzOzPxQ-42" value="joinAction.jsp" style="swimlane;startSize=20;html=1;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
+        <mxCell id="vg_KpXP5praCrEzOzPxQ-42" value="joinAction.jsp" style="swimlane;startSize=20;html=1;swimlaneFillColor=#d5e8d4;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
           <mxGeometry x="420" y="20" width="140" height="520" as="geometry">
             <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
@@ -277,7 +277,7 @@
             <mxGeometry x="110" y="170" width="30" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="vg_KpXP5praCrEzOzPxQ-43" value="loginAction.jsp" style="swimlane;startSize=20;html=1;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
+        <mxCell id="vg_KpXP5praCrEzOzPxQ-43" value="loginAction.jsp" style="swimlane;startSize=20;html=1;swimlaneFillColor=#ffe6cc;" vertex="1" parent="vg_KpXP5praCrEzOzPxQ-38">
           <mxGeometry x="560" y="20" width="140" height="520" as="geometry">
             <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
