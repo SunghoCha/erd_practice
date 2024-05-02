@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-02T08:09:27.798Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="3_70WvHqSUkrQ4LQCUEl" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-02T08:19:54.172Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="XMlriKfZ9S-Z4SwUnMgX" version="24.3.1" type="github">
   <diagram name="페이지-1" id="vcijaVTRWd4Iovr-8mUV">
     <mxGraphModel dx="2048" dy="733" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -391,10 +391,10 @@
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-6" value="로그인" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="2150" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-7" value="회원 탈퇴" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-7" value="회원 탈퇴&lt;div&gt;(비밀번호 인증)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="2070" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-8" value="개인정보수정" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-8" value="개인정보수정&lt;div&gt;(비밀번호 및 기타)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-70" y="1980" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-9" value="캐쉬" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -406,7 +406,7 @@
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-12" value="공지사항" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="1620" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-13" value="수강신청&lt;div&gt;(강의 리스트)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-13" value="강의 목록" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-350" y="1800" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-14" value="메인" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
@@ -521,6 +521,15 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-120" y="1890" as="sourcePoint" />
             <mxPoint x="-70" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-48" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="GYxwEvZ2tnUwgV-JeDNi-8" target="GYxwEvZ2tnUwgV-JeDNi-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-10" y="2050" as="sourcePoint" />
+            <mxPoint x="-250" y="2070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-90" y="2060" />
+            </Array>
           </mxGeometry>
         </mxCell>
       </root>
