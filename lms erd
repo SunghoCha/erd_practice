@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T06:56:51.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qrI0PnTkI0qHUnIOAbjA" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-03T06:59:50.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MdobVL4eV9xyyMY8uBM9" version="24.3.1" type="github">
   <diagram name="페이지-1" id="vcijaVTRWd4Iovr-8mUV">
     <mxGraphModel dx="2263" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -400,8 +400,8 @@
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-11" value="수납 관리&lt;div&gt;(수납 리스트)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-480" y="2070" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-12" value="공지사항" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="350" y="1620" width="120" height="60" as="geometry" />
+        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-12" value="과제게시판" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-433" y="1723" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-13" value="강의 목록&lt;div&gt;[찜하기]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-350" y="1800" width="120" height="60" as="geometry" />
@@ -601,6 +601,27 @@
             <mxPoint x="-630" y="1760" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-710" y="1810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-15" value="질문게시판" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="1723" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-16" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="tPIVRl0AUUBplKfc5V8r-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-290" y="1800" as="sourcePoint" />
+            <mxPoint x="-210" y="1600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-290" y="1730" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-18" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="GYxwEvZ2tnUwgV-JeDNi-13" target="GYxwEvZ2tnUwgV-JeDNi-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-690" y="1900" as="sourcePoint" />
+            <mxPoint x="-610" y="1700" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-290" y="1770" />
             </Array>
           </mxGeometry>
         </mxCell>
