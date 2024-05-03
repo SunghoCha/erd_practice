@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T06:59:50.468Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MdobVL4eV9xyyMY8uBM9" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-03T08:03:43.228Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="yR6kksKyoD0VBEy0RibM" version="24.3.1" type="github">
   <diagram name="페이지-1" id="vcijaVTRWd4Iovr-8mUV">
     <mxGraphModel dx="2263" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -382,8 +382,8 @@
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-1" value="마이페이지&lt;div&gt;(개인정보창)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-220" y="1890" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-2" value="찜 강의조회" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="414" y="1770" width="120" height="60" as="geometry" />
+        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-2" value="캐쉬 환불" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="90" y="1610" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-5" value="회원가입" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-630" y="1810" width="120" height="60" as="geometry" />
@@ -394,7 +394,7 @@
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-8" value="개인정보수정&lt;div&gt;(비밀번호 및 기타)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="1980" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-9" value="캐쉬" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-9" value="캐쉬&lt;div&gt;(캐쉬이력리스트,&lt;/div&gt;&lt;div&gt;현재캐쉬)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-70" y="1710" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-11" value="수납 관리&lt;div&gt;(수납 리스트)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -501,12 +501,12 @@
             <mxPoint x="53" y="1840" as="sourcePoint" />
             <mxPoint x="-290" y="1970" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="73" y="1910" />
+              <mxPoint x="70" y="1900" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-44" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;신청완료시&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="73" y="1830" width="77" height="30" as="geometry" />
+        <mxCell id="GYxwEvZ2tnUwgV-JeDNi-44" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;신청완료시&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" parent="1" vertex="1">
+          <mxGeometry x="63" y="1846" width="77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="GYxwEvZ2tnUwgV-JeDNi-45" value="신청한 강의 조회&lt;div&gt;[취소]&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="90" y="1890" width="120" height="60" as="geometry" />
@@ -590,7 +590,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tPIVRl0AUUBplKfc5V8r-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;가입완료시&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-510" y="1810" width="77" height="30" as="geometry" />
+          <mxGeometry x="-518" y="1816" width="77" height="30" as="geometry" />
         </mxCell>
         <mxCell id="tPIVRl0AUUBplKfc5V8r-13" value="아이디 찾기" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-630" y="1650" width="120" height="60" as="geometry" />
@@ -624,6 +624,36 @@
               <mxPoint x="-290" y="1770" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-19" value="캐쉬 충전" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-20" value="학생 조회" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="1920" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-22" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GYxwEvZ2tnUwgV-JeDNi-9" target="GYxwEvZ2tnUwgV-JeDNi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="1810" as="sourcePoint" />
+            <mxPoint x="-120" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-23" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="GYxwEvZ2tnUwgV-JeDNi-9" target="tPIVRl0AUUBplKfc5V8r-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="1843" as="sourcePoint" />
+            <mxPoint x="-20" y="1663" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-25" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="tPIVRl0AUUBplKfc5V8r-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="1840" as="sourcePoint" />
+            <mxPoint x="165" y="1783" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="1805" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-26" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;잔액부족&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="53" y="1774" width="77" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
