@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-03T06:40:47.063Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="2bGrfsZ9Byeo3-cRfmki" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-03T06:56:51.334Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="qrI0PnTkI0qHUnIOAbjA" version="24.3.1" type="github">
   <diagram name="페이지-1" id="vcijaVTRWd4Iovr-8mUV">
     <mxGraphModel dx="2263" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -556,17 +556,11 @@
             <mxPoint x="-100" y="2050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tPIVRl0AUUBplKfc5V8r-3" value="로그인페이지&lt;div&gt;[회원가입,&lt;/div&gt;&lt;div&gt;비밀번호찾기]&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-3" value="로그인페이지&lt;div&gt;[회원가입,&lt;/div&gt;&lt;div&gt;ID,PW찾기]&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="-750" y="1880" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="tPIVRl0AUUBplKfc5V8r-4" value="비밀번호찾기" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-630" y="1730" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="tPIVRl0AUUBplKfc5V8r-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-140" y="1950" as="sourcePoint" />
-            <mxPoint x="-90" y="1900" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="tPIVRl0AUUBplKfc5V8r-7" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tPIVRl0AUUBplKfc5V8r-3" target="tPIVRl0AUUBplKfc5V8r-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -577,19 +571,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="tPIVRl0AUUBplKfc5V8r-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="tPIVRl0AUUBplKfc5V8r-3" target="GYxwEvZ2tnUwgV-JeDNi-5">
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-9" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-650" y="1880" as="sourcePoint" />
-            <mxPoint x="-570" y="1760" as="targetPoint" />
+            <mxPoint x="-710" y="1870" as="sourcePoint" />
+            <mxPoint x="-630" y="1840" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-650" y="1810" />
+              <mxPoint x="-710" y="1840" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tPIVRl0AUUBplKfc5V8r-10" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="8" y="1620" as="sourcePoint" />
-            <mxPoint x="58" y="1570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tPIVRl0AUUBplKfc5V8r-11" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.288;entryY=0.009;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="GYxwEvZ2tnUwgV-JeDNi-5" target="GYxwEvZ2tnUwgV-JeDNi-14">
@@ -598,6 +586,21 @@
             <mxPoint x="-340" y="1880" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-390" y="1820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-12" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;가입완료시&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-510" y="1810" width="77" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-13" value="아이디 찾기" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-630" y="1650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tPIVRl0AUUBplKfc5V8r-14" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" target="tPIVRl0AUUBplKfc5V8r-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-710" y="1880" as="sourcePoint" />
+            <mxPoint x="-630" y="1760" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-710" y="1810" />
             </Array>
           </mxGeometry>
         </mxCell>
