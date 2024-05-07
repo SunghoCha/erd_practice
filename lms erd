@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-07T11:33:28.982Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="SJbfFnZUUNWT8PrWq6uK" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-07T11:41:01.293Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="jZZAZYTc0023B6TCKGMt" version="24.3.1" type="github">
   <diagram name="페이지-1" id="vcijaVTRWd4Iovr-8mUV">
     <mxGraphModel dx="3917" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1327,6 +1327,199 @@
             <mxPoint x="720" y="1780" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1070" y="1744" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-178" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1870" y="1734" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-179" value="?" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" connectable="0" vertex="1" parent="1">
+          <mxGeometry x="1970" y="1704" as="geometry">
+            <mxPoint x="29" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-180" value="학생 회원 탈퇴 프로세스" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1484" width="700" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-181" value="(V) myPage.jsp" style="swimlane;startSize=20;html=1;swimlaneFillColor=default;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-180">
+          <mxGeometry y="20" width="140" height="520" as="geometry">
+            <mxRectangle y="20" width="40" height="520" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-182" value="학생 회원 탈퇴" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-181">
+          <mxGeometry x="20" y="60" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-183" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-181">
+          <mxGeometry y="400" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-184" value="&quot;회원 탈퇴 찾기&quot; 클릭시 링크" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-183">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-185" value="myPage.jsp" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-183">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-186" value="loginForm.jsp" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-181">
+          <mxGeometry x="20" y="276" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-187" value="(C) MemberC" style="swimlane;startSize=20;html=1;swimlaneFillColor=#e1d5e7;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-180">
+          <mxGeometry x="140" y="20" width="140" height="520" as="geometry">
+            <mxRectangle y="20" width="40" height="520" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-188" value="&lt;div&gt;/deleteMember&lt;br&gt;&lt;/div&gt;MemberC&lt;div&gt;(G)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-187">
+          <mxGeometry y="20" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-189" value="세션정보" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-187">
+          <mxGeometry x="20" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="Y" placeholders="1" name="Variable" id="SAxRig8EXvLbRmqwPqNi-190">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=10;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-187">
+            <mxGeometry x="110" y="170" width="30" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="N" placeholders="1" name="Variable" id="SAxRig8EXvLbRmqwPqNi-191">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=10;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-187">
+            <mxGeometry x="70" y="200" width="30" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-192" value="(V) deleteMemberForm.jsp" style="swimlane;startSize=20;html=1;swimlaneFillColor=#dae8fc;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-180">
+          <mxGeometry x="280" y="20" width="140" height="520" as="geometry">
+            <mxRectangle y="20" width="40" height="520" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-193" value="정보입력" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-192">
+          <mxGeometry x="20" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="Y" placeholders="1" name="Variable" id="SAxRig8EXvLbRmqwPqNi-194">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=10;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-192">
+            <mxGeometry x="110" y="170" width="30" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-195" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="SAxRig8EXvLbRmqwPqNi-192">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="140" as="sourcePoint" />
+            <mxPoint x="70" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-196" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-192">
+          <mxGeometry y="400" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-197" value="필요정보 입력" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-196">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-198" value="&lt;span data-sheets-userformat=&quot;{&amp;quot;2&amp;quot;:769,&amp;quot;3&amp;quot;:{&amp;quot;1&amp;quot;:0},&amp;quot;11&amp;quot;:4,&amp;quot;12&amp;quot;:0}&quot; data-sheets-value=&quot;{&amp;quot;1&amp;quot;:2,&amp;quot;2&amp;quot;:&amp;quot;pw&amp;quot;}&quot; data-sheets-root=&quot;1&quot; style=&quot;font-size:11pt;font-family:Calibri,Arial;font-style:normal;&quot;&gt;pw&lt;/span&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-196">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-199" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="SAxRig8EXvLbRmqwPqNi-192" source="SAxRig8EXvLbRmqwPqNi-189">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="34" y="250" as="sourcePoint" />
+            <mxPoint x="20" y="170" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-200" value="(M) Member" style="swimlane;startSize=20;html=1;swimlaneFillColor=#d5e8d4;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-180">
+          <mxGeometry x="420" y="20" width="140" height="520" as="geometry">
+            <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-201" value="쿼리 실행" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-200">
+          <mxGeometry x="20" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="N" placeholders="1" name="Variable" id="SAxRig8EXvLbRmqwPqNi-202">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=10;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-200">
+            <mxGeometry x="70" y="120" width="30" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-203" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-200">
+          <mxGeometry y="400" width="140" height="120" as="geometry">
+            <mxRectangle y="400" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-204" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-203">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-205" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-203">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-206" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-203">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <UserObject label="Y" placeholders="1" name="Variable" id="SAxRig8EXvLbRmqwPqNi-207">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=10;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-200">
+            <mxGeometry x="110" y="170" width="30" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;redirect:&lt;/b&gt;" placeholders="1" name="Variable" id="SAxRig8EXvLbRmqwPqNi-208">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-200">
+            <mxGeometry x="-27" y="101" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-209" value="(R) loginForm.jsp" style="swimlane;startSize=20;html=1;swimlaneFillColor=#ffe6cc;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-180">
+          <mxGeometry x="560" y="20" width="140" height="520" as="geometry">
+            <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-210" value="loginForm.jsp" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-209">
+          <mxGeometry x="20" y="145" width="100" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b&gt;redirect:&lt;/b&gt;" placeholders="1" name="Variable" id="SAxRig8EXvLbRmqwPqNi-211">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-209">
+            <mxGeometry x="-30" y="145" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-212" value="&lt;div&gt;/deleteMember&lt;br&gt;&lt;/div&gt;MemberC&lt;div&gt;(P)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-209">
+          <mxGeometry x="-140" y="20" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-213" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-209">
+          <mxGeometry y="400" width="140" height="120" as="geometry">
+            <mxRectangle y="400" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-214" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-213">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-215" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-213">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-216" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="SAxRig8EXvLbRmqwPqNi-213">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-217" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="SAxRig8EXvLbRmqwPqNi-180" source="SAxRig8EXvLbRmqwPqNi-193">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="250" as="sourcePoint" />
+            <mxPoint x="440" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-218" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="SAxRig8EXvLbRmqwPqNi-180">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="160" as="sourcePoint" />
+            <mxPoint x="350" y="160" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="280" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-219" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="SAxRig8EXvLbRmqwPqNi-180" target="SAxRig8EXvLbRmqwPqNi-210">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="190" as="sourcePoint" />
+            <mxPoint x="579.9999999999995" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-220" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="SAxRig8EXvLbRmqwPqNi-180" source="SAxRig8EXvLbRmqwPqNi-182">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="69" y="150" as="sourcePoint" />
+            <mxPoint x="160" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="69" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SAxRig8EXvLbRmqwPqNi-221" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1610" y="1704" as="sourcePoint" />
+            <mxPoint x="1470" y="1780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1820" y="1744" />
             </Array>
           </mxGeometry>
         </mxCell>
