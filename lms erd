@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T03:38:35.109Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="pN3DS73u_X8S1VyGN8xG" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T03:42:12.764Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="OBV0BKJQQwdGJDbbBdXY" version="24.3.1" type="github">
   <diagram name="페이지-1" id="vcijaVTRWd4Iovr-8mUV">
-    <mxGraphModel dx="3917" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4516" dy="1222" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4346,23 +4346,6 @@
         </mxCell>
         <mxCell id="EdcyjwcuheNu9mr06Kp0-409" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="EdcyjwcuheNu9mr06Kp0-344" source="EdcyjwcuheNu9mr06Kp0-377" target="EdcyjwcuheNu9mr06Kp0-394">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <UserObject label="N" placeholders="1" name="Variable" id="EdcyjwcuheNu9mr06Kp0-405">
-          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=10;" vertex="1" parent="1">
-            <mxGeometry x="2983" y="3524" width="30" height="20" as="geometry" />
-          </mxCell>
-        </UserObject>
-        <mxCell id="EdcyjwcuheNu9mr06Kp0-406" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="2899" y="3568" as="sourcePoint" />
-            <mxPoint x="2939" y="3568" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="EdcyjwcuheNu9mr06Kp0-407" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="3039" y="3568" as="sourcePoint" />
-            <mxPoint x="3079" y="3568" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
