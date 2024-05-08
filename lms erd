@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-08T05:47:08.939Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="Va0e1sr6HQmx2HuZ0wqI" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-08T05:56:08.813Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="XYpufRAmZnjOoA1laSE5" version="24.3.1" type="github">
   <diagram name="페이지-1" id="vcijaVTRWd4Iovr-8mUV">
     <mxGraphModel dx="3917" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -4602,7 +4602,7 @@
         <mxCell id="EdcyjwcuheNu9mr06Kp0-513" value="수납관리" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-470">
           <mxGeometry x="20" y="190" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="EdcyjwcuheNu9mr06Kp0-486" value="(M) Student" style="swimlane;startSize=20;html=1;swimlaneFillColor=#d5e8d4;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-457">
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-486" value="(M) EmpC" style="swimlane;startSize=20;html=1;swimlaneFillColor=#d5e8d4;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-457">
           <mxGeometry x="420" y="20" width="140" height="520" as="geometry">
             <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
           </mxGeometry>
@@ -4642,7 +4642,7 @@
             <mxGeometry x="-30" y="145" width="50" height="20" as="geometry" />
           </mxCell>
         </UserObject>
-        <mxCell id="EdcyjwcuheNu9mr06Kp0-496" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/cashHistory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;StudentC&lt;/div&gt;&lt;div&gt;(G)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-493">
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-496" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/cashHistory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;EmpC&lt;/div&gt;&lt;div&gt;(G)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-493">
           <mxGeometry x="-140" y="20" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="EdcyjwcuheNu9mr06Kp0-497" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-493">
@@ -4706,6 +4706,151 @@
             <mxPoint x="1362.999999999999" y="4140" as="targetPoint" />
             <Array as="points">
               <mxPoint x="1339" y="4160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-520" value="환불 내역 조회 프로세스" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1670" y="3950" width="700" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-521" value="접속 경로" style="swimlane;startSize=20;html=1;swimlaneFillColor=default;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-520">
+          <mxGeometry y="20" width="280" height="520" as="geometry">
+            <mxRectangle y="20" width="40" height="520" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-522" value="세션정보" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-521">
+          <mxGeometry x="160" y="94" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-523" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-521">
+          <mxGeometry y="400" width="140" height="120" as="geometry">
+            <mxRectangle y="400" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-524" value="로그인 여부" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-523">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-525" value="등록 권한 확인&lt;div&gt;(관리자만&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;가능&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-523">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-526" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-523">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-527" value="&lt;div&gt;cashHistory.jsp&lt;/div&gt;" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-521">
+          <mxGeometry x="20" y="99" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-528" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="EdcyjwcuheNu9mr06Kp0-521" source="EdcyjwcuheNu9mr06Kp0-527">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="174" as="sourcePoint" />
+            <mxPoint x="160" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-529" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-521">
+          <mxGeometry x="140" y="400" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-530" value="&quot;환불 내역 조회&quot; 링크" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-529">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-531" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-529">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-535" value="[환불 내역 조회] 버튼" style="swimlane;startSize=20;html=1;swimlaneFillColor=#fff2cc;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-520">
+          <mxGeometry x="280" y="20" width="140" height="520" as="geometry">
+            <mxRectangle y="20" width="40" height="520" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-536" value="환불 내역 조회" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-535">
+          <mxGeometry x="20" y="104" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-537" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-535">
+          <mxGeometry y="400" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-538" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-537">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-539" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-537">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-541" value="(M) EmpC" style="swimlane;startSize=20;html=1;swimlaneFillColor=#d5e8d4;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-520">
+          <mxGeometry x="420" y="20" width="140" height="520" as="geometry">
+            <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Y" placeholders="1" name="Variable" id="EdcyjwcuheNu9mr06Kp0-542">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=10;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-541">
+            <mxGeometry x="110" y="170" width="30" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-543" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-541">
+          <mxGeometry y="400" width="140" height="120" as="geometry">
+            <mxRectangle y="400" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-544" value="-" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-543">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-545" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-543">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-546" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-543">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-547" value="쿼리 실행" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-541">
+          <mxGeometry x="20" y="140" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-548" value="(R)&amp;nbsp; refundHistory.jsp" style="swimlane;startSize=20;html=1;swimlaneFillColor=#ffe6cc;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-520">
+          <mxGeometry x="560" y="20" width="140" height="520" as="geometry">
+            <mxRectangle x="240" y="20" width="40" height="460" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-549" value="refundHistory.jsp" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-548">
+          <mxGeometry x="20" y="145" width="100" height="50" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b&gt;redirect:&lt;/b&gt;" placeholders="1" name="Variable" id="EdcyjwcuheNu9mr06Kp0-550">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=12;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-548">
+            <mxGeometry x="-30" y="145" width="50" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-551" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;/refundHistory&lt;/span&gt;&lt;/div&gt;&lt;div&gt;EmpC&lt;/div&gt;&lt;div&gt;(G)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-548">
+          <mxGeometry x="-140" y="20" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-552" value="상세기능" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-548">
+          <mxGeometry y="400" width="140" height="120" as="geometry">
+            <mxRectangle y="400" width="90" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-553" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-552">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-554" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-552">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-555" value="?" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="EdcyjwcuheNu9mr06Kp0-552">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-556" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="EdcyjwcuheNu9mr06Kp0-520" source="EdcyjwcuheNu9mr06Kp0-542" target="EdcyjwcuheNu9mr06Kp0-549">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="220" as="sourcePoint" />
+            <mxPoint x="529.9999999999991" y="290" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <UserObject label="Y" placeholders="1" name="Variable" id="EdcyjwcuheNu9mr06Kp0-557">
+          <mxCell style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;overflow=hidden;fontSize=10;" vertex="1" parent="1">
+            <mxGeometry x="1915" y="4073" width="30" height="20" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-559" value="" style="edgeStyle=elbowEdgeStyle;elbow=vertical;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1928.999999999999" y="4094" as="sourcePoint" />
+            <mxPoint x="1969" y="4094" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EdcyjwcuheNu9mr06Kp0-561" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2068.999999999999" y="4093.999999999999" as="sourcePoint" />
+            <mxPoint x="2108.999999999999" y="4140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2085" y="4120" />
             </Array>
           </mxGeometry>
         </mxCell>
