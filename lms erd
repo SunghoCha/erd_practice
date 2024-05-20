@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-19T11:58:27.773Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="MiSJx7ZOgiWQUlEOzHyz" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-20T14:32:07.639Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="zqY1IGePSxlmPI79TNeN" version="24.3.1" type="github">
   <diagram name="페이지-1" id="vcijaVTRWd4Iovr-8mUV">
     <mxGraphModel dx="3702" dy="1795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -48,7 +48,7 @@
           <mxGeometry x="-1770" y="410" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EXVpTr48IG3bk3vXNbM7-58" value="공지사항&lt;div&gt;(main board)&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="-2230" y="710" width="100" height="40" as="geometry" />
+          <mxGeometry x="-1770" y="320" width="100" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EXVpTr48IG3bk3vXNbM7-70" value="N" style="resizable=0;html=1;whiteSpace=wrap;align=right;verticalAlign=bottom;" parent="1" connectable="0" vertex="1">
           <mxGeometry x="-1668" y="638" as="geometry">
@@ -7127,6 +7127,18 @@
         </mxCell>
         <mxCell id="7CH_j2tmuxg8ePFMgMFa-59" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;" parent="1" vertex="1">
           <mxGeometry x="569" y="1472" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WFbbtMMyU1FHTDgjbndP-1" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="EXVpTr48IG3bk3vXNbM7-43" target="EXVpTr48IG3bk3vXNbM7-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-1760" y="440" as="sourcePoint" />
+            <mxPoint x="-1820" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WFbbtMMyU1FHTDgjbndP-2" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1720" y="360" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="WFbbtMMyU1FHTDgjbndP-3" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1750" y="390" width="30" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
